@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Career } from "@/components/career"
+import { WorldCupMoment } from "@/components/world-cup-moment"
 import { Gallery } from "@/components/gallery"
 import { Products } from "@/components/products"
 import { Legacy } from "@/components/legacy"
@@ -14,6 +15,7 @@ export default function NeymarJrPage() {
       <Hero />
       <About />
       <Career />
+      <WorldCupMoment />
       <Gallery />
       <Products />
       <Legacy />
