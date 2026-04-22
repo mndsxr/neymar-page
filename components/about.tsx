@@ -60,11 +60,11 @@ export function About() {
                 : "opacity-0 translate-x-10"
             }`}
           >
-            <p className="text-primary font-mono text-sm tracking-[0.2em] uppercase mb-4">
+            <p className="text-yellow-400 font-mono text-sm tracking-[0.2em] uppercase mb-4">
               Quem e
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              NEYMAR <span className="text-primary">JR?</span>
+              NEYMAR <span className="text-yellow-400">JR?</span>
             </h2>
 
             <div className="space-y-6 text-muted-foreground leading-relaxed">
@@ -77,7 +77,7 @@ export function About() {
               </p>
 
               <p>
-                Revelado pelo <span className="text-primary">Santos FC</span>, onde conquistou 
+                Revelado pelo <span className="text-green-400 font-bold">Santos FC</span>, onde conquistou 
                 a Libertadores em 2011 com apenas 19 anos, Neymar rapidamente se tornou o 
                 principal jogador do Brasil. Sua transferencia para o Barcelona em 2013 o 
                 colocou ao lado de Messi e Suarez, formando o lendario trio MSN.
@@ -85,23 +85,23 @@ export function About() {
 
               <p>
                 Em 2017, fez historia ao se tornar a transferencia mais cara do futebol mundial, 
-                indo para o <span className="text-primary">Paris Saint-Germain</span> por 222 
+                indo para o <span className="text-blue-400 font-bold">Paris Saint-Germain</span> por 222 
                 milhoes de euros. Atualmente defende o Al-Hilal da Arabia Saudita, onde continua 
                 sua trajetoria brilhante.
               </p>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <div className="px-6 py-3 bg-card rounded-lg border border-border">
-                <p className="text-2xl font-bold text-primary">79</p>
+              <div className="px-6 py-3 bg-card rounded-lg border border-yellow-400/30">
+                <p className="text-2xl font-bold text-yellow-400">79</p>
                 <p className="text-sm text-muted-foreground">Gols pela Selecao</p>
               </div>
-              <div className="px-6 py-3 bg-card rounded-lg border border-border">
-                <p className="text-2xl font-bold text-primary">128</p>
+              <div className="px-6 py-3 bg-card rounded-lg border border-green-400/30">
+                <p className="text-2xl font-bold text-green-400">128</p>
                 <p className="text-sm text-muted-foreground">Jogos pelo Brasil</p>
               </div>
-              <div className="px-6 py-3 bg-card rounded-lg border border-border">
-                <p className="text-2xl font-bold text-primary">2x</p>
+              <div className="px-6 py-3 bg-card rounded-lg border border-blue-400/30">
+                <p className="text-2xl font-bold text-blue-400">2x</p>
                 <p className="text-sm text-muted-foreground">Melhor do Mundo</p>
               </div>
             </div>
