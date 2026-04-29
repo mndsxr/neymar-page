@@ -11,11 +11,6 @@ const navLinks = [
   { href: "#galeria", label: "Galeria" },
   { href: "#produtos", label: "Produtos" },
   { href: "#legado", label: "Legado" },
-  { href: "#estilo-de-vida", label: "Estilo" },
-  { href: "#videos", label: "Videos" },
-  { href: "#frases", label: "Frases" },
-  { href: "#idolos", label: "Idolos" },
-  { href: "#momentos", label: "Momentos" },
 ]
 
 export function Navbar() {

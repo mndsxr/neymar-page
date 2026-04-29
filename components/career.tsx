@@ -106,11 +106,11 @@ export function Career() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <p className="text-green-400 font-mono text-sm tracking-[0.2em] uppercase mb-4">
+          <p className="text-primary font-mono text-sm tracking-[0.2em] uppercase mb-4">
             Trajetoria
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            CARREIRA <span className="text-green-400">BRILHANTE</span>
+            CARREIRA <span className="text-primary">BRILHANTE</span>
           </h2>
         </div>
 
@@ -135,8 +135,8 @@ export function Career() {
                   style={{ transitionDelay: `${index * 200}ms` }}
                 >
                   {/* Timeline Node */}
-                  <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center -translate-x-1/2 z-10">
-                    <Icon size={16} className="text-black" />
+                  <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center -translate-x-1/2 z-10">
+                    <Icon size={16} className="text-primary-foreground" />
                   </div>
 
                   {/* Content Card */}
@@ -145,8 +145,8 @@ export function Career() {
                       isLeft ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"
                     }`}
                   >
-                    <div className="bg-card border border-yellow-400/30 rounded-xl p-6 hover:border-yellow-400/70 transition-all duration-300">
-                      <p className="text-yellow-400 font-mono text-sm mb-2">
+                    <div className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-300">
+                      <p className="text-primary font-mono text-sm mb-2">
                         {item.year}
                       </p>
                       <h3 className="text-2xl font-bold mb-4">{item.team}</h3>
@@ -162,12 +162,12 @@ export function Career() {
                               isLeft ? "md:flex-row-reverse" : ""
                             }`}
                           >
-                            <Trophy size={14} className="text-green-400 shrink-0" />
+                            <Trophy size={14} className="text-primary shrink-0" />
                             <span>{achievement}</span>
                           </li>
                         ))}
                       </ul>
-                      <p className="mt-4 text-sm font-semibold text-green-400">
+                      <p className="mt-4 text-sm font-semibold text-primary">
                         {item.goals}
                       </p>
                     </div>
@@ -187,7 +187,7 @@ export function Career() {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            Gols <span className="text-yellow-400">Memoraveis</span>
+            Gols <span className="text-primary">Memoraveis</span>
           </h3>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -201,8 +201,8 @@ export function Career() {
                 }`}
                 style={{ transitionDelay: `${800 + index * 100}ms` }}
               >
-                <p className="text-yellow-400 font-mono text-sm mb-2">{goal.year}</p>
-                <h4 className="text-lg font-bold mb-3 group-hover:text-yellow-400 transition-colors">
+                <p className="text-primary font-mono text-sm mb-2">{goal.year}</p>
+                <h4 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors">
                   {goal.title}
                 </h4>
                 <p className="text-sm text-muted-foreground">

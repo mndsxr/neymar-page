@@ -37,11 +37,11 @@ export function Legacy() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <p className="text-purple-400 font-mono text-sm tracking-[0.2em] uppercase mb-4">
+          <p className="text-primary font-mono text-sm tracking-[0.2em] uppercase mb-4">
             O Futuro
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            O <span className="text-purple-400">LEGADO</span> CONTINUA
+            O <span className="text-primary">LEGADO</span> CONTINUA
           </h2>
         </div>
 

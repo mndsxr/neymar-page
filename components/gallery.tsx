@@ -79,11 +79,11 @@ export function Gallery() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <p className="text-blue-400 font-mono text-sm tracking-[0.2em] uppercase mb-4">
+          <p className="text-primary font-mono text-sm tracking-[0.2em] uppercase mb-4">
             Momentos
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            GALERIA <span className="text-blue-400">DE FOTOS</span>
+            GALERIA <span className="text-primary">DE FOTOS</span>
           </h2>
         </div>
 
