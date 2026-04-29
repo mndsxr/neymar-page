@@ -3,30 +3,31 @@
 import { useEffect, useRef, useState } from "react"
 import { Sparkles, Scissors, Heart } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const hairstyles = [
   {
     name: "Corte Moicano",
     period: "2010-2012",
     description: "O visual que marcou sua chegada ao Santos e chamou atenção do mundo.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-04.jpg`,
   },
   {
     name: "Corte Social",
     period: "2013-2015",
     description: "O estilo mais comportado durante a passagem pelo Barcelona.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-barcelona.jpg`,
   },
   {
     name: "Corte Rastafári",
     period: "2016-2018",
     description: "Visual que simbolizava sua conexão com a cultura e espiritualidade.",
-    image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-06.jpg`,
   },
   {
     name: "Corte Low Fade",
     period: "2019-Atual",
     description: "O corte moderno e elegante que usa atualmente, com desenhos.",
-    image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj-2.jpg`,
   },
 ]
 
@@ -35,25 +36,25 @@ const tattoos = [
     name: "Logo NJR",
     location: "Costas",
     meaning: "Sua marca registrada e símbolo de identidade pessoal.",
-    image: "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=400&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-celebracao.jpg`,
   },
   {
     name: "Pai e Mãe",
     location: "Braço direito",
     meaning: "Homenagem aos seus maiores incentivadores e apoio incondicional.",
-    image: "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?w=400&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-01.jpg`,
   },
   {
     name: "Filho Neymar Jr",
     location: "Pescoço",
     meaning: "Amor eterno ao seu primogênito, sua maior inspiração.",
-    image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=400&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj.jpg`,
   },
   {
     name: "Data 05/02/1992",
     location: "Pulso",
     meaning: "Data do seu nascimento, marco inicial da sua jornada.",
-    image: "https://images.unsplash.com/photo-1611501275019-9b5c00bdc28?w=400&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-03.jpg`,
   },
 ]
 

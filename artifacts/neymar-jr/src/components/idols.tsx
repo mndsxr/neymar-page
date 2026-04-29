@@ -3,13 +3,14 @@
 import { useEffect, useRef, useState } from "react"
 import { Star, Heart, User, Award } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const childhoodIdols = [
   {
     name: "Pelé",
     role: "Rei do Futebol",
     influence: "O maior de todos os tempos",
     quote: "Ele é o melhor jogador do mundo depois de Pelé",
-    image: "https://images.unsplash.com/photo-1619120232238-7010d1e7c90c?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-08.jpg`,
     color: "yellow",
   },
   {
@@ -17,7 +18,7 @@ const childhoodIdols = [
     role: "Ídolo do Santos",
     influence: "Inspiração na Vila",
     quote: "Eu cresci querendo jogar como Robinho",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-09.jpg`,
     color: "blue",
   },
   {
@@ -25,7 +26,7 @@ const childhoodIdols = [
     role: "Mágico do Futebol",
     influence: "O estilo que inspirou",
     quote: "Ele me ensinou que o futebol é alegria",
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-07.jpg`,
     color: "green",
   },
   {
@@ -33,7 +34,7 @@ const childhoodIdols = [
     role: "CR7",
     influence: "Referência de profissionalismo",
     quote: "Um exemplo de dedicação e trabalho",
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=500&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj.jpg`,
     color: "red",
   },
 ]
@@ -66,13 +67,13 @@ const familyInfluence = [
     name: "Neymar Pai",
     role: "Mentor e Técnico",
     contribution: "Responsável por moldar sua técnica desde os 4 anos",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-01.jpg`,
   },
   {
     name: "Neymar Mãe",
     role: "Apoio Incondicional",
     contribution: "Sempre presente nos momentos mais importantes",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop&auto=format",
+    image: `${BASE}images/ney-02.jpg`,
   },
 ]
 

@@ -19,7 +19,7 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1920&auto=format&fit=crop')`,
+          backgroundImage: `url('${import.meta.env.BASE_URL}images/ney-celebracao.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background" />

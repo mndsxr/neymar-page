@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { Activity, AlertTriangle, Trophy, Calendar, Target, Zap, Flame } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const injuries = [
   {
     date: "2014",
@@ -10,7 +11,7 @@ const injuries = [
     severity: "grave",
     description: "Lesão grave nas costas durante a Copa do Mundo do Brasil que o afastou da competição",
     recovery: "2 meses",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-04.jpg`,
   },
   {
     date: "2018",
@@ -18,7 +19,7 @@ const injuries = [
     severity: "grave",
     description: "Lesão grave que o afastou por 3 meses, ameaçando sua participação na Copa do Mundo",
     recovery: "3 meses",
-    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-05.jpg`,
   },
   {
     date: "2019",
@@ -26,7 +27,7 @@ const injuries = [
     severity: "grave",
     description: "Fratura no quinto metatarso do pé esquerdo durante jogo do PSG",
     recovery: "4 meses",
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-06.jpg`,
   },
   {
     date: "2021",
@@ -34,7 +35,7 @@ const injuries = [
     severity: "moderada",
     description: "Nova lesão no tornozelo direito durante jogo do PSG, causando dor intensa",
     recovery: "6 semanas",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-07.jpg`,
   },
   {
     date: "2023",
@@ -42,7 +43,7 @@ const injuries = [
     severity: "grave",
     description: "Ruptura do ligamento cruzado anterior durante jogo pela seleção brasileira",
     recovery: "8-9 meses",
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-08.jpg`,
   },
   {
     date: "2024",
@@ -50,7 +51,7 @@ const injuries = [
     severity: "leve",
     description: "Lesão no músculo da coxa durante treinamento no Al-Hilal",
     recovery: "3 semanas",
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-09.jpg`,
   },
 ]
 
@@ -61,7 +62,7 @@ const goals = [
     competition: "Copa do Mundo",
     description: "Golaço na prorrogação que empatou o jogo nos quartos de final",
     type: "Golaço",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-celebracao.jpg`,
   },
   {
     match: "Barcelona 6-1 PSG",
@@ -69,7 +70,7 @@ const goals = [
     competition: "Champions League",
     description: "Gol histórico da virada épica no Camp Nou",
     type: "Histórico",
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-barcelona.jpg`,
   },
   {
     match: "Santos 3-1 Fluminense",
@@ -77,7 +78,7 @@ const goals = [
     competition: "Brasileirão",
     description: "Gol de falta espetacular no Brasileirão",
     type: "Falta",
-    image: "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/libertadores.jpg`,
   },
   {
     match: "Brasil 6-0 Honduras",
@@ -85,7 +86,7 @@ const goals = [
     competition: "Jogo Olímpico",
     description: "Gol de falta nos Jogos do Rio",
     type: "Ouro Olímpico",
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj.jpg`,
   },
 ]
 
@@ -96,7 +97,7 @@ const performances = [
     competition: "Amistoso",
     highlights: ["2 gols", "1 assistência", "Melhor em campo"],
     rating: 9.5,
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-celebracao.jpg`,
   },
   {
     match: "Barcelona 6-1 PSG",
@@ -104,7 +105,7 @@ const performances = [
     competition: "Champions League",
     highlights: ["3 gols", "Virada histórica", "Decisivo"],
     rating: 10,
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-barcelona.jpg`,
   },
   {
     match: "Santos 4-0 Boca Juniors",
@@ -112,7 +113,7 @@ const performances = [
     competition: "Copa Libertadores",
     highlights: ["2 gols", "Final da Libertadores", "Campeão"],
     rating: 9,
-    image: "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/libertadores.jpg`,
   },
   {
     match: "Brasil 3-0 Áustria",
@@ -120,7 +121,7 @@ const performances = [
     competition: "Amistoso",
     highlights: ["2 gols", "Show de dribles", "Golaço"],
     rating: 9.5,
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj-2.jpg`,
   },
   {
     match: "Brasil 2-1 Croácia",
@@ -128,7 +129,7 @@ const performances = [
     competition: "Copa do Mundo",
     highlights: ["1 gol", "Prorrogação", "Herói nacional"],
     rating: 9,
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-01.jpg`,
   },
   {
     match: "PSG 4-0 Monaco",
@@ -136,7 +137,7 @@ const performances = [
     competition: "Ligue 1",
     highlights: ["2 gols", "Drible do século", "Golaço"],
     rating: 9.5,
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-psg.jpg`,
   },
   {
     match: "Santos 5-4 Chelsea",
@@ -144,7 +145,7 @@ const performances = [
     competition: "Copa Libertadores",
     highlights: ["1 gol", "Pênalti decisivo", "Classificação"],
     rating: 8.5,
-    image: "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-02.jpg`,
   },
   {
     match: "Brasil 5-0 Peru",
@@ -152,7 +153,7 @@ const performances = [
     competition: "Copa América",
     highlights: ["2 gols", "Assistência", "Classificação"],
     rating: 9,
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-bealsj.jpg`,
   },
 ]
 

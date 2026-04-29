@@ -3,47 +3,48 @@
 import { useEffect, useRef, useState } from "react"
 import { ShoppingBag, Star } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const products = [
   {
     name: "Camisa Santos 2011",
     description: "Replica da camisa historica da Libertadores",
     price: "R$ 299,90",
-    image: "https://images.unsplash.com/photo-1580087256394-dc596e1c8f4f?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/libertadores.jpg`,
     badge: "Classico",
   },
   {
     name: "Camisa Brasil",
     description: "Camisa oficial da Selecao Brasileira",
     price: "R$ 349,90",
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/ney-celebracao.jpg`,
     badge: "Mais Vendido",
   },
   {
     name: "Chuteira NJR",
     description: "Modelo exclusivo assinado por Neymar",
     price: "R$ 899,90",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/chuteira-nike.jpg`,
     badge: "Exclusivo",
   },
   {
     name: "Bone NJR10",
     description: "Bone oficial da colecao Neymar Jr",
     price: "R$ 149,90",
-    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/ney-bealsj.jpg`,
     badge: null,
   },
   {
     name: "Camisa PSG Neymar",
     description: "Camisa oficial do Paris Saint-Germain",
     price: "R$ 449,90",
-    image: "https://images.unsplash.com/photo-1580087256394-dc596e1c8f4f?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/ney-psg.jpg`,
     badge: "Limitado",
   },
   {
     name: "Poster Autografado",
     description: "Poster oficial com autografo original",
     price: "R$ 799,90",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=400&auto=format&fit=crop",
+    image: `${BASE}images/ney-bealsj-2.jpg`,
     badge: "Raro",
   },
 ]

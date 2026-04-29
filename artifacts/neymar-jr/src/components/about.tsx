@@ -41,7 +41,7 @@ export function About() {
           >
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=800&auto=format&fit=crop"
+                src={`${import.meta.env.BASE_URL}images/ney-bealsj-2.jpg`}
                 alt="Neymar Jr em campo"
                 className="w-full h-full object-cover"
               />

@@ -3,27 +3,28 @@
 import { useEffect, useState } from "react"
 import { Quote, Star } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const testimonials = [
   {
     id: 1,
     quote: "Neymar é o jogador mais habilidoso que já vi. Ele faz coisas que outros apenas sonham.",
     author: "Lionel Messi",
     role: "Artilheiro Histórico",
-    avatar: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=100&h=100&fit=crop",
+    avatar: `${BASE}images/ney-bealsj.jpg`,
   },
   {
     id: 2,
     quote: "Um gênio do futebol moderno. Sua visão de jogo é incomparável.",
     author: "Xavi Hernández",
     role: "Meia Legendary",
-    avatar: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=100&h=100&fit=crop",
+    avatar: `${BASE}images/ney-03.jpg`,
   },
   {
     id: 3,
     quote: "Quando Neymar joga, o futebol se transforma em arte.",
     author: "Ronaldinho",
     idolo: "Ídolo",
-    avatar: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=100&h=100&fit=crop",
+    avatar: `${BASE}images/ney-07.jpg`,
   },
 ]
 

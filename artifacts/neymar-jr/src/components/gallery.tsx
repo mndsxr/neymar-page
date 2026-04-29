@@ -2,44 +2,45 @@
 
 import { useEffect, useRef, useState } from "react"
 
+const BASE = import.meta.env.BASE_URL
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=600&auto=format&fit=crop",
+    src: `${BASE}images/ney-celebracao.jpg`,
     alt: "Neymar comemorando gol",
     size: "large",
   },
   {
-    src: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=400&auto=format&fit=crop",
+    src: `${BASE}images/ney-01.jpg`,
     alt: "Neymar em acao",
     size: "small",
   },
   {
-    src: "https://images.unsplash.com/photo-1551958219-acbc608c6377?q=80&w=400&auto=format&fit=crop",
+    src: `${BASE}images/ney-02.jpg`,
     alt: "Neymar driblando",
     size: "small",
   },
   {
-    src: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=600&auto=format&fit=crop",
+    src: `${BASE}images/ney-bealsj.jpg`,
     alt: "Neymar com a bola",
     size: "medium",
   },
   {
-    src: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=400&auto=format&fit=crop",
+    src: `${BASE}images/ney-03.jpg`,
     alt: "Neymar no estadio",
     size: "small",
   },
   {
-    src: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?q=80&w=600&auto=format&fit=crop",
+    src: `${BASE}images/ney-04.jpg`,
     alt: "Neymar em campo",
     size: "large",
   },
   {
-    src: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=400&auto=format&fit=crop",
+    src: `${BASE}images/ney-05.jpg`,
     alt: "Neymar celebrando",
     size: "medium",
   },
   {
-    src: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=400&auto=format&fit=crop",
+    src: `${BASE}images/ney-06.jpg`,
     alt: "Neymar no vestiario",
     size: "small",
   },

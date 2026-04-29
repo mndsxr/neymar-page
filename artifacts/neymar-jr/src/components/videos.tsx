@@ -3,11 +3,12 @@
 import { useEffect, useRef, useState } from "react"
 import { Play, Trophy, Zap, Flame } from "lucide-react"
 
+const BASE = import.meta.env.BASE_URL
 const videoHighlights = [
   {
     title: "Melhores Dribles",
     description: "Collection of Neymar's most incredible dribbles that left defenders stunned.",
-    thumbnail: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop&auto=format",
+    thumbnail: `${BASE}images/ney-bealsj-2.jpg`,
     duration: "8:24",
     category: "dribles",
     views: "12M visualizações",
@@ -15,7 +16,7 @@ const videoHighlights = [
   {
     title: "Gols Marcantes",
     description: "Os golos mais espetaculares da carreira do camisa 10.",
-    thumbnail: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=400&fit=crop&auto=format",
+    thumbnail: `${BASE}images/ney-celebracao.jpg`,
     duration: "12:45",
     category: "gols",
     views: "18M visualizações",
@@ -23,7 +24,7 @@ const videoHighlights = [
   {
     title: "Assistências Magicais",
     description: "Passes que definiram jogos e conquistaram títulos.",
-    thumbnail: "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?w=600&h=400&fit=crop&auto=format",
+    thumbnail: `${BASE}images/ney-bealsj.jpg`,
     duration: "6:30",
     category: "assistencias",
     views: "8M visualizações",
@@ -31,7 +32,7 @@ const videoHighlights = [
   {
     title: "Virada Histórica",
     description: "Barcelona 6x1 PSG - A noite mais mágica de Neymar na Champions.",
-    thumbnail: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=600&h=400&fit=crop&auto=format",
+    thumbnail: `${BASE}images/ney-barcelona.jpg`,
     duration: "15:20",
     category: "historico",
     views: "25M visualizações",
@@ -44,28 +45,28 @@ const bestGoals = [
     year: "2011",
     competition: "Copa do Brasil",
     description: "Drible em cinco adversários e finalização de classe.",
-    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-04.jpg`,
   },
   {
     title: "Hat-trick vs PSG",
     year: "2017",
     competition: "Champions League",
     description: "Virada histórica que entrou para a história.",
-    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-psg.jpg`,
   },
   {
     title: "Gol do Ouro Olímpico",
     year: "2016",
     competition: "Jogos Rio 2016",
     description: "Pênalti decisivo para a primeira medalha de ouro.",
-    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-celebracao.jpg`,
   },
   {
     title: "Gol na Final da Champions",
     year: "2015",
     competition: "UEFA Champions League",
     description: "Gol que selou a tríplice coroa do Barcelona.",
-    image: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400&h=250&fit=crop&auto=format",
+    image: `${BASE}images/ney-barcelona.jpg`,
   },
 ]
 
