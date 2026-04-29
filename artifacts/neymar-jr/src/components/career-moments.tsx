@@ -86,7 +86,7 @@ const goals = [
     competition: "Jogo Olímpico",
     description: "Gol de falta nos Jogos do Rio",
     type: "Ouro Olímpico",
-    image: `${BASE}images/ney-bealsj.jpg`,
+    image: `${BASE}images/ney-celebracao.jpg`,
   },
 ]
 
@@ -121,7 +121,7 @@ const performances = [
     competition: "Amistoso",
     highlights: ["2 gols", "Show de dribles", "Golaço"],
     rating: 9.5,
-    image: `${BASE}images/ney-bealsj-2.jpg`,
+    image: `${BASE}images/ney-05.jpg`,
   },
   {
     match: "Brasil 2-1 Croácia",
@@ -153,7 +153,7 @@ const performances = [
     competition: "Copa América",
     highlights: ["2 gols", "Assistência", "Classificação"],
     rating: 9,
-    image: `${BASE}images/ney-bealsj.jpg`,
+    image: `${BASE}images/ney-03.jpg`,
   },
 ]
 

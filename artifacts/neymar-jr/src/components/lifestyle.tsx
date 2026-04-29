@@ -27,7 +27,7 @@ const hairstyles = [
     name: "Corte Low Fade",
     period: "2019-Atual",
     description: "O corte moderno e elegante que usa atualmente, com desenhos.",
-    image: `${BASE}images/ney-bealsj-2.jpg`,
+    image: `${BASE}images/ney-09.jpg`,
   },
 ]
 
@@ -48,7 +48,7 @@ const tattoos = [
     name: "Filho Neymar Jr",
     location: "Pescoço",
     meaning: "Amor eterno ao seu primogênito, sua maior inspiração.",
-    image: `${BASE}images/ney-bealsj.jpg`,
+    image: `${BASE}images/ney-07.jpg`,
   },
   {
     name: "Data 05/02/1992",

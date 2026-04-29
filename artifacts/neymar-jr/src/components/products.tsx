@@ -16,7 +16,7 @@ const products = [
     name: "Camisa Brasil",
     description: "Camisa oficial da Selecao Brasileira",
     price: "R$ 349,90",
-    image: `${BASE}images/ney-celebracao.jpg`,
+    image: `${BASE}images/ney-03.jpg`,
     badge: "Mais Vendido",
   },
   {
@@ -30,21 +30,21 @@ const products = [
     name: "Bone NJR10",
     description: "Bone oficial da colecao Neymar Jr",
     price: "R$ 149,90",
-    image: `${BASE}images/ney-bealsj.jpg`,
+    image: `${BASE}images/ney-07.jpg`,
     badge: null,
   },
   {
     name: "Camisa PSG Neymar",
     description: "Camisa oficial do Paris Saint-Germain",
     price: "R$ 449,90",
-    image: `${BASE}images/ney-psg.jpg`,
+    image: `${BASE}images/ney-08.jpg`,
     badge: "Limitado",
   },
   {
     name: "Poster Autografado",
     description: "Poster oficial com autografo original",
     price: "R$ 799,90",
-    image: `${BASE}images/ney-bealsj-2.jpg`,
+    image: `${BASE}images/ney-09.jpg`,
     badge: "Raro",
   },
 ]

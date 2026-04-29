@@ -30,11 +30,11 @@ const childhoodIdols = [
     color: "green",
   },
   {
-    name: "Cristiano Ronaldo",
-    role: "CR7",
-    influence: "Referência de profissionalismo",
-    quote: "Um exemplo de dedicação e trabalho",
-    image: `${BASE}images/ney-bealsj.jpg`,
+    name: "Lionel Messi",
+    role: "Companheiro & Mestre",
+    influence: "O legado de Messi para Neymar",
+    quote: "Joguei ao lado do melhor de todos os tempos. Aprendi todo dia com ele.",
+    image: `${BASE}images/ney-bealsj-2.jpg`,
     color: "red",
   },
 ]

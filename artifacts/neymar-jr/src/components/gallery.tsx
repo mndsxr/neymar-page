@@ -5,38 +5,38 @@ import { useEffect, useRef, useState } from "react"
 const BASE = import.meta.env.BASE_URL
 const galleryImages = [
   {
-    src: `${BASE}images/ney-celebracao.jpg`,
+    src: `${BASE}images/ney-01.jpg`,
     alt: "Neymar comemorando gol",
     size: "large",
   },
   {
-    src: `${BASE}images/ney-01.jpg`,
+    src: `${BASE}images/ney-04.jpg`,
     alt: "Neymar em acao",
     size: "small",
   },
   {
-    src: `${BASE}images/ney-02.jpg`,
+    src: `${BASE}images/ney-barcelona.jpg`,
     alt: "Neymar driblando",
     size: "small",
   },
   {
-    src: `${BASE}images/ney-bealsj.jpg`,
-    alt: "Neymar com a bola",
+    src: `${BASE}images/ney-02.jpg`,
+    alt: "Neymar campeao mundial",
     size: "medium",
   },
   {
-    src: `${BASE}images/ney-03.jpg`,
+    src: `${BASE}images/ney-05.jpg`,
     alt: "Neymar no estadio",
     size: "small",
   },
   {
-    src: `${BASE}images/ney-04.jpg`,
+    src: `${BASE}images/ney-psg.jpg`,
     alt: "Neymar em campo",
     size: "large",
   },
   {
-    src: `${BASE}images/ney-05.jpg`,
-    alt: "Neymar celebrando",
+    src: `${BASE}images/libertadores.jpg`,
+    alt: "Neymar erguendo a Libertadores",
     size: "medium",
   },
   {

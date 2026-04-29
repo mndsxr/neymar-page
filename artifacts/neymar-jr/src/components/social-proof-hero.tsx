@@ -10,7 +10,7 @@ const testimonials = [
     quote: "Neymar é o jogador mais habilidoso que já vi. Ele faz coisas que outros apenas sonham.",
     author: "Lionel Messi",
     role: "Artilheiro Histórico",
-    avatar: `${BASE}images/ney-bealsj.jpg`,
+    avatar: `${BASE}images/ney-bealsj-2.jpg`,
   },
   {
     id: 2,

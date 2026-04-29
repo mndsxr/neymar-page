@@ -8,7 +8,7 @@ const videoHighlights = [
   {
     title: "Melhores Dribles",
     description: "Collection of Neymar's most incredible dribbles that left defenders stunned.",
-    thumbnail: `${BASE}images/ney-bealsj-2.jpg`,
+    thumbnail: `${BASE}images/ney-04.jpg`,
     duration: "8:24",
     category: "dribles",
     views: "12M visualizações",
@@ -24,7 +24,7 @@ const videoHighlights = [
   {
     title: "Assistências Magicais",
     description: "Passes que definiram jogos e conquistaram títulos.",
-    thumbnail: `${BASE}images/ney-bealsj.jpg`,
+    thumbnail: `${BASE}images/ney-09.jpg`,
     duration: "6:30",
     category: "assistencias",
     views: "8M visualizações",

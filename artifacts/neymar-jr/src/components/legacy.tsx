@@ -58,7 +58,7 @@ export function Legacy() {
             <div className="relative">
               <div className="aspect-[4/5] relative rounded-2xl overflow-hidden">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/ney-08.jpg`}
+                  src={`${import.meta.env.BASE_URL}images/ney-bealsj.jpg`}
                   alt="Lamine Yamal - O Novo Regente"
                   className="w-full h-full object-cover"
                 />
