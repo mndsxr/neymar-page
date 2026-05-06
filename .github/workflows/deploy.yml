@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PORT: 3000
     steps:
       - name: Checkout
         uses: actions/checkout@v4
