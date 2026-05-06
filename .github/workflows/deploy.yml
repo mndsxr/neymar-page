@@ -20,6 +20,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PORT: 3000
+      BASE_PATH: /neymar-page
     steps:
       - name: Checkout
         uses: actions/checkout@v4
